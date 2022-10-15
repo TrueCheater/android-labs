@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             View radioButton = radioGroup.findViewById(checkedId);
             int index = radioGroup.indexOfChild(radioButton);
             if (password.getText().toString().isEmpty()) {
-                textView.setText(" " + password.getText());
+                textView.setText("");
                 Toast.makeText(this, "Empty password", Toast.LENGTH_SHORT).show();
             } else {
                 switch (index) {
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         buttonApply.setOnClickListener(view -> {
             password = findViewById(R.id.password);
             if (password.getText().toString().isEmpty()) {
-                textView.setText(" " + password.getText());
+                textView.setText("");
                 Toast.makeText(this, "Empty password", Toast.LENGTH_SHORT).show();
             } else {
                 textView.setText("Entered password: " + password.getText());
