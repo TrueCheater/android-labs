@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab2Fragments</string>
+    <string name="enter_password">Enter password</string>
+    <string name="show_password">SHOW</string>
+    <string name="show">Show password</string>
+    <string name="hide">Hide password</string>
+    <string name="passwordText">Enter your password</string>
+    <string name="button">OK</string>
+    <string name="entered_password">Entered password: </string>
+    <string name="cat">cat</string>
+    <string name="enteredPassword"> </string>
+    <string name="empty_password">Empty password</string>
+</resources>
