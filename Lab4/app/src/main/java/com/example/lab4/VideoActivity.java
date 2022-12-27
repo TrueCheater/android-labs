@@ -45,4 +45,10 @@ public class VideoActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        videoView.stopPlayback();
+        videoView.resume();
+    }
 }
